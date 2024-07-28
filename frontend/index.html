@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Susan's Sushi Shop</title>
+</head>
+<body>
+    <h1>Welcome to Susan's Sushi Shop 🍣</h1>
+
+    <section id="customer-interface">
+        <h2>Order Sushi</h2>
+        <label for="sushi-a">Sushi A (£3): </label>
+        <input type="number" id="sushi-a" value="0" min="0">
+        <br>
+        <label for="sushi-b">Sushi B (£4): </label>
+        <input type="number" id="sushi-b" value="0" min="0">
+        <br>
+        <button onclick="calculateTotal()">Calculate Total</button>
+        <button onclick="placeOrder()">Place Order</button>
+        <button onclick="clearAllData()">Clear All Data</button>
+
+        <p id="total-price">Total Price: £0</p>
+        <p id="discount">Discount: £0</p>
+    </section>
+
+    <section id="kitchen-interface">
+        <h2>Order Details</h2>
+        <button onclick="fetchOrders()">Fetch Orders</button>
+        <div id="orders"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
