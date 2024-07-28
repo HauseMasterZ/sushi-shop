@@ -1,6 +1,10 @@
 # Sushi Shop
 
 This is a simple Sushi Shop application built with Flask. The application allows users to add orders, retrieve orders, and clear all data from the database.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5c6cf1ef-4089-46cf-969a-d8c92692e380" alt="Home Page"/>
+</p>
+
 
 ## Features
 
